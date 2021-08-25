@@ -1,0 +1,16 @@
+.controller {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 40vh;
+    margin: auto;
+    margin-top: -14px;
+    width: 20vh;
+    min-width: 160px;
+
+    & > .sliderButton {
+        background: none;
+        border: none;
+        cursor: pointer;
+    }
+}
